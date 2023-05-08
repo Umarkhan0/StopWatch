@@ -1,0 +1,56 @@
+
+body{
+    background-color: cornflowerblue;
+}.mainHeading, .head2{
+    text-align: center;
+    color: white;
+}.box_main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}.box{
+    display: inline;
+    background-color: rgb(143, 174, 232);
+    color: white;
+    padding: 50px 90px;
+    display: block;
+}button{
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(143, 174, 232);
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    border-color: white;
+}.countainer_button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}.firstRadius{
+    border-radius: 10px 0px 0px 10px;
+}.lastRadius{
+    border-radius: 0px 10px 10px 0px;
+    display: inline;
+    background-color: rgb(143, 174, 232);
+    color: white;
+    padding: 50px 70px;
+    display: block;
+    
+}.secondbox{
+    display: inline;
+    background-color: rgb(143, 174, 232);
+    color: white;
+    padding: 50px 86px;
+    display: block;
+}
+    
+@media only screen and (max-width: 960px) {
+    .firstRadius , .lastRadius{
+        border-radius: unset;
+    }
+}
